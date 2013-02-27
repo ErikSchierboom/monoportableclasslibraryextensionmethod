@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClassLibraryWithExt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClassLibraryWithoutExtensionMethod", "PortableClassLibraryWithoutExtensionMethod\PortableClassLibraryWithoutExtensionMethod.csproj", "{BF1EFFD3-4D0B-4CB6-B5B1-918BA10A716F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59A0077C-D931-4B53-AF9F-135B74B4F4A9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
