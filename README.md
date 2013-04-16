@@ -1,5 +1,4 @@
-Mono portable class library extension method
-============================================
+# Mono portable class library extension method
 
 This solution is used to show that the combination of a portable class library and extensions methods does not run on Mono 3.0.5. To verify that it does not work, you need to have an environment where Mono 3.0.5 has been installed. If this is done, execute the following steps to see that Mono 3.0.5 does not handle portable class libraries with extension methods in them well:
 
@@ -34,3 +33,6 @@ Now we can verify that the problem lies with the combination of portable class l
     `mono ./ConsoleApplicationWithoutExtensionMethod.exe`
 
 This console application executes successfully, thereby demonstrating that the problem lies with extension methods.
+
+## License
+[Apache License 2.0](LICENSE.md)
