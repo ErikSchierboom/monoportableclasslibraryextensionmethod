@@ -1,5 +1,7 @@
 # Mono portable class library extension method
 
+**Note: this problem has been fixed from Mono version 3.0.12 (see [release notes](http://www.mono-project.com/Release_Notes_Mono_3.0#New_in_Mono_3.0.12))**
+
 This solution is used to show that the combination of a portable class library and extensions methods does not run on Mono 3.0.5. To verify that it does not work, you need to have an environment where Mono 3.0.5 has been installed. If this is done, execute the following steps to see that Mono 3.0.5 does not handle portable class libraries with extension methods in them well:
 
  1. Build the **ConsoleApplicationWithExtensionMethod** project
